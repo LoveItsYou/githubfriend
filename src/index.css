@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: 13, 17, 23;
+  --secondary: 1, 4, 9;
+  --text: 255, 255, 255;
+  --acent: 31, 111, 235;
+  --acent-secondary: 57, 211, 83;
+}
+
+p,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+  color: rgba(var(--text));
+}
